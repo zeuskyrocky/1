@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+#header{
+    background-image: url("../img/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+    padding: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.search{
+    width: 700px;
+  margin-left: 70px;
+
+}
+.btn{
+    margin: 5px;
+    color: white;
+    background-color: #5c0b0bfa;
+    border-radius: 8px;
+    padding: 10px;
+}
+.title{
+    margin-top: 600px;
+    color: white;
+    text-indent: 240px;
+    font-weight: 500;
+}
+.text{
+    background-color: black;
+    color: white;
+    text-indent: 240px;
+}
+.devices{
+    height: 50px;
+    width: auto;
+    padding-left: 240px;
+}
+.mid-section{
+    
+    
+}
+.section-header{
+    color: white;
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    text-shadow: 2px 1px white;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+}
+.inner-div{
+    background-color: #1a5ab5;
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+    width: 30%;
+    margin: auto 2%;
+}
+.inner-div hr{
+    width: 80%;
+    margin: au;
+}
+footer{
+    width: 33%;
+    color: white;
+    margin: 3% auto;
+    text-align: center;
+
+}
